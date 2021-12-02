@@ -87,7 +87,7 @@
   text-transform: uppercase;
 }
 
-.task {
+.task__input {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -139,7 +139,7 @@
   width: 226px;
 }
 
-.task__item >    .task__input {
+.task__item > .task__input {
   width: 226px;
 }
 
@@ -160,15 +160,15 @@
 }
 
 /* Edit Task */
-.task__input {
+.task__item .task__input {
   display: none;
 }
 
-.edit-mode .task__input {
+.task__item.edit-mode .task__input {
   display: inline-block;
   width: 224px;
 }
 
-.edit-mode .task__label {
+.task__item.edit-mode .task__label {
   display: none;
 }
