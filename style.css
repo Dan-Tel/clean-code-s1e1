@@ -139,7 +139,7 @@
   width: 226px;
 }
 
-.task__item > .task__input {
+.task__item >    .task__input {
   width: 226px;
 }
 
@@ -164,11 +164,11 @@
   display: none;
 }
 
-.task__item.edit-mode .task__input {
+.edit-mode .task__input {
   display: inline-block;
   width: 224px;
 }
 
-.task__item.edit-mode .task__label {
+.edit-mode .task__label {
   display: none;
 }
